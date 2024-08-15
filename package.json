@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --watch",
+    "chrome:build": "tsc && vite build --watch",
+    "chrome:dev": "web-ext run --source-dir=dist --target=chromium --start-url=chrome://extensions/ --reload",
     "preview": "vite preview",
-    "codew": "graphql-codegen --config codegen.ts --watch",
-    "start:chrome": "web-ext run --source-dir=dist --target=chromium --start-url=chrome://extensions/ --reload"
+    "codew": "graphql-codegen --config codegen.ts --watch"
   },
   "dependencies": {
     "@apollo/client": "^3.11.4",

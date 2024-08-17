@@ -1,14 +1,14 @@
 Create chrome extension with vite/react/typescript/chakra
 npx & pnpm
 ```shell
-npx diget https://github.com/hecool108/tiger-chrome-extension your-app-name
+npx degit https://github.com/hecool108/tiger-chrome-extension your-app-name
 cd your-app-name
 pnpm i
 ```
 
 bunx
 ```shell
-bunx diget https://github.com/hecool108/tiger-chrome-extension your-app-name
+bunx degit https://github.com/hecool108/tiger-chrome-extension your-app-name
 cd your-app-name
 bun i
 ```
